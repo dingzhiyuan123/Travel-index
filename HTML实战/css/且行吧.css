@@ -1,0 +1,537 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    height: 90px;
+    background-color: rgb(246, 246, 246);
+}
+
+.head-content {
+    margin: auto;
+    height: 90px;
+    width: 1080px;
+    line-height: 90px;
+}
+
+.head-btn {
+    float: right;
+}
+
+.head-btn button {
+    width: 80px;
+    height: 35px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.head-btn button:hover {
+    cursor: pointer;
+}
+
+.btn11 {
+    background-color: rgb(73, 179, 68);
+    color: white;
+}
+
+.btn22 {
+    background-color: white;
+    color: #888;
+}
+
+.head-content img {
+    margin-top: 10px;
+}
+
+.nav {
+    height: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+.nav-content {
+    width: 1080px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+}
+
+.nav-content ul {
+    width: 1080px;
+}
+
+.nav-content li {
+    float: left;
+    color: #888;
+    list-style: none;
+    width: 135px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-content li:hover {
+    background-color: rgb(74, 179, 68);
+    color: white;
+}
+
+.lunbo {
+    width: 1920px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.lunboList {
+    width: 11520px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+
+}
+
+.lunboList li {
+    width: 1920px;
+    height: 500px;
+    float: left;
+}
+
+.zero {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0px;
+    left: 0px;
+}
+
+.zero_1 {
+    width: 600px;
+    /* background-color: aqua; */
+    margin: auto;
+    height: 80px;
+}
+
+.zero_1 div {
+    float: left;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px 20px 30px 20px;
+}
+
+
+
+
+.mm {
+    width: 1920px;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+}
+
+.mm button {
+    width: 50px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+    font-size: 40px;
+    border: 0px;
+
+}
+
+.btn1 {
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    color: white;
+}
+
+.btn2 {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    color: white;
+}
+
+.zero {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0px;
+    left: 0px;
+    border: 0px;
+}
+
+.zero_1 {
+    width: 600px;
+    margin: auto;
+    height: 80px;
+    padding-left: 120px;
+    border: 0px;
+}
+
+.zero_1 div {
+    float: left;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px 20px 30px 20px;
+}
+
+#banner_01 {
+    background-color: orange;
+}
+
+.center-content {
+    background-color: rgb(246, 246, 246);
+    overflow: hidden;
+}
+
+.content-one {
+    height: 415px;
+    border-bottom: 1px solid #999;
+}
+
+.first-img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 1080px;
+    height: 330px;
+    margin-bottom: 20px;
+}
+
+.img-ul li {
+    float: left;
+    width: 260px;
+    height: 330px;
+    background-color: blue;
+    list-style: none;
+    text-align: center;
+}
+
+.li-first {
+    background-image: url(../images/region_01.jpg);
+    margin-right: 13.333333333333333333px;
+}
+
+.li-second {
+    background-image: url(../images/region_02.jpg);
+    margin-right: 13.333333333333333333px;
+}
+
+.li-three {
+    background-image: url(../images/region_03.jpg);
+    margin-right: 13.333333333333333333px;
+}
+
+.li-four {
+    background-image: url(../images/region_04.jpg);
+    float: right !important;
+}
+
+.img-ul li div {
+    width: 230px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 8px solid white;
+    padding: 6px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 180px;
+}
+
+.img-ul li div p {
+    box-sizing: border-box;
+    background-color: white;
+    width: 202px;
+    height: 46px;
+    text-align: center;
+}
+
+.tit-p1 {
+
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #999;
+}
+
+.tit-p2 {
+    padding-top: 5px;
+    color: #444;
+    font-size: 14px;
+}
+
+.fst-title {
+    margin: auto;
+    width: 1080px;
+    height: 65px;
+
+    text-align: center;
+}
+
+.fst-title p {
+    font-size: 24px;
+    color: #555;
+    margin-top: 35px;
+}
+
+.fst-title span {
+    color: red;
+}
+
+.content-two {
+    height: 385px;
+    border-bottom: 1px solid #999;
+}
+
+.two-content {
+    width: 1080px;
+    margin: auto;
+    height: 385px;
+}
+
+.two-title {
+    color: #555;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.two-img {
+    width: 1080px;
+    height: 255px;
+}
+
+.two-img li {
+    list-style: none;
+    float: left;
+    width: 340px;
+    height: 255px;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.two-img img {
+    width: 340px;
+
+}
+
+.two-img p {
+    display: inline-block;
+    line-height: 65px;
+    font-size: 16px;
+}
+
+.two-img button {
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgb(74, 179, 68);
+    outline: none;
+    background-color: white;
+    color: rgb(73, 179, 68);
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.content-three {
+    height: 660px;
+    border-bottom: 1px solid #999;
+}
+
+.three-content {
+    width: 1080px;
+    height: 660px;
+    margin: auto;
+}
+
+.three-img {
+    width: 1080px;
+    height: 520px;
+}
+
+.three-img li {
+    width: 260px;
+    list-style: none;
+    float: left;
+    height: 250px;
+    margin-right: 13.33px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.three-img img {
+    width: 260px;
+}
+
+.three-img p {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.three-img button {
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgb(74, 179, 68);
+    outline: none;
+    background-color: white;
+    color: rgb(73, 179, 68);
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.content-four {
+    height: 500px;
+
+}
+
+.four-content {
+    width: 1080px;
+    height: 500px;
+    margin: auto;
+    
+}
+
+.four-img {
+    width: 1080px;
+    height: 430px;
+    background-color: white;
+
+}
+
+.left-img {
+    width: 390px;
+    height: 430px;
+    background-image: url(../images//strategy_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+
+.left-img p {
+    width: 390px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.four-ul {
+    height: 430px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.gongleft {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.gongright{
+    overflow: hidden;
+}
+.gongleft p {
+    color: #555;
+}
+
+.date {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.gongli{
+    overflow: hidden;
+    margin: 10px 0px 10px 0px;
+}
+.data-l {
+    font-size: 18px;
+    text-align: center;
+}
+
+.right-p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-image: url(../images/sprite.gif);
+    background-position: 0px -36px;
+    background-repeat: no-repeat;
+}
+
+.right-ps {
+    font-size: 14px;
+    color: #555;
+}
+.gonglue{
+    list-style: none;
+}
+.video{
+    width: 1920px;
+    height: 400px;
+    background-image: url(../images//spot.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(26,26,26);
+    border: 1px solid #999;
+}
+.zhezhao{
+    width: 1920px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+.play{
+    width: 128px;
+    height: 128px;
+    background-image: url(../images//player_128.png);
+    position: absolute;
+    top:35%;
+    left: 45%;
+}
+.footer-kk{
+    height: 160px;
+    background-color: rgb(26, 26, 26);
+}
+.vide-i{
+    width: 1920px;
+    height: 400px;
+    margin: auto;
+}
+.daiyan{
+    width: 1921px;
+    margin: auto;
+    height: 451px;
+}
+.footer-content{
+    margin: auto;
+    width: 1080px;
+    height: 160px;
+    background-image: url(../images/code.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position:0px 30px ;
+}
+.footer-content p{
+    color:#999;
+    line-height: 160px;
+    text-align: center;
+    padding-left: 100px;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mm {
+            width: 1920px;
+            height: 500px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .mm button {
+            width: 50px;
+            height: 80px;
+            background-color: rgba(0, 0, 0, 0.3);
+            outline: none;
+            font-size: 40px;
+            border: 0px;
+            
+        }
+
+        .btn1 {
+            position: absolute;
+            left: 0px;
+            top: 50%;
+        }
+
+        .btn2 {
+            position: absolute;
+            right: 0px;
+            top: 50%;
+        }
+
+        .zero {
+            position: absolute;
+            width: 1920px;
+            height: 80px;
+            background-color: rgba(0, 0, 0, 0.3);
+            bottom: 0px;
+            left: 0px;
+            border: 0px;
+        }
+
+        .zero_1 {
+            width: 600px;
+            margin: auto;
+            height: 80px;
+            padding-left: 120px;
+            border: 0px;
+        }
+
+        .zero_1 div {
+            float: left;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 30px 20px 30px 20px;
+        }
+
+        #banner_01 {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mm" onmouseover="qingchu()" onmouseleave="start()">
+        <img id="img" src="../images/banner_01.jpg" alt="">
+        <button class="btn1" onclick="reduce()">&lt</button>
+        <button class="btn2" onclick="add()">&gt</button>
+        <div class="zero">
+            <div class="zero_1" id="zero1">
+                <div id="banner_01" onclick="first(this)" class="div"></div>
+                <div id="banner_02" onclick="first(this)" class="div"></div>
+                <div id="banner_03" onclick="first(this)" class="div"></div>
+                <div id="banner_04" onclick="first(this)" class="div"></div>
+                <div id="banner_05" onclick="first(this)" class="div"></div>
+                <div id="banner_06" onclick="first(this)" class="div"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var index = 1
+
+    function add() {
+        index++
+
+        if (index > 6) {
+            index = 1
+        }
+        getImg(index)
+        change()
+    }
+
+    function getImg(index) {
+        document.getElementById('img').src = '../images/banner_0' + index + '.jpg'
+    }
+
+    function reduce() {
+        index--
+        if (index < 1) {
+            index = 6
+        }
+        getImg(index)
+        change()
+    }
+
+    function first(value) {
+        var number = value.id
+        var dian = document.getElementById('img')
+        dian.src = "../images/" + number + ".jpg"
+        index = number[8]
+        change()
+    }
+
+    function change() {
+
+        var arr1 = document.getElementsByClassName('div')
+        for (i = 0; i < 6; i++) {
+            if (i == index - 1) {
+                arr1[i].style.backgroundColor = "orange"
+            } else {
+                arr1[i].style.backgroundColor = "rgba(0,0,0,0.7)"
+            }
+
+        }
+    }
+    var timer = setInterval(function () {
+        add()
+        console.log(111)
+    }, 2000)
+
+    function qingchu() {
+        clearInterval(timer)
+    }
+
+    function start() {
+        clearInterval(timer)
+        timer = setInterval(function () {
+            add()
+        }, 2000)
+    }
+</script>
+
+</html>

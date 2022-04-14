@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>且行吧-首页</title>
+    <link rel="stylesheet" href="../css/且行吧.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="head-content">
+            <img src="../images/logo.png" alt="">
+            <div class="head-btn">
+                <a href="logo.html">
+                    <button class="btn11">登录</button>
+                </a>
+                <a href="#">
+                    <button class="btn22">注册</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-content">
+            <ul>
+                <li>首页</li>
+                <li>热门景点</li>
+                <li>自由团</li>
+                <li>精品线路</li>
+                <li>出行攻略</li>
+                <li>微视频</li>
+                <li>新闻资讯</li>
+                <li>关于我们</li>
+            </ul>
+        </div>
+    </div>
+    <div class="mm" onmouseover="qingchu()" onmouseleave="start()">
+        <img id="img" src="../images/banner_01.jpg" alt="">
+        <button class="btn1" onclick="reduce()">&lt</button>
+        <button class="btn2" onclick="add()">&gt</button>
+        <div class="zero">
+            <div class="zero_1" id="zero1">
+                <div id="banner_01" onclick="first(this)" class="div"></div>
+                <div id="banner_02" onclick="first(this)" class="div"></div>
+                <div id="banner_03" onclick="first(this)" class="div"></div>
+                <div id="banner_04" onclick="first(this)" class="div"></div>
+                <div id="banner_05" onclick="first(this)" class="div"></div>
+                <div id="banner_06" onclick="first(this)" class="div"></div>
+            </div>
+        </div>
+    </div>
+    <div class="center-content">
+        <div class="content-one">
+            <div class="first-img">
+                <ul class="img-ul">
+                    <li class="li-first">
+                        <div>
+                            <p class="tit-p1">狂特西部</p>
+                            <p class="tit-p2">西藏五日自由行</p>
+                        </div>
+                    </li>
+                    <li class="li-second">
+                        <div>
+                            <p class="tit-p1">冰冻三省</p>
+                            <p class="tit-p2">踏雪寻梅三日行</p>
+                        </div>
+                    </li>
+                    <li class="li-three">
+                        <div>
+                            <p class="tit-p1">情定异国</p>
+                            <p class="tit-p2">异国风情七日行</p>
+                        </div>
+                    </li>
+                    <li class="li-four">
+                        <div>
+                            <p class="tit-p1">梦回水乡</p>
+                            <p class="tit-p2">苏杭天堂行天下</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="fst-title">
+                <p><span>FREE&nbsp;GROUP</span>&nbsp;自由团</p>
+            </div>
+        </div>
+        <div class="content-two">
+            <div class="two-content">
+                <p class="two-title">ONLY TRAVEL AROUND THE WORLD</p>
+                <div class="two-list">
+                    <div class="two-img">
+                        <ul>
+                            <li>
+                                <img src="../images/group_01.jpg" alt="">
+                                <div>
+                                    <p>泰国普吉岛5日自由团</p>
+                                    <button>申请入团</button>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../images/group_02.jpg" alt="">
+                                <div>
+                                    <p>泰国普吉岛5日自由团</p>
+                                    <button>申请入团</button>
+                                </div>
+                            </li>
+                            <li style="margin-right: 0px;">
+                                <img src="../images/group_03.jpg" alt="">
+                                <div>
+                                    <p>泰国普吉岛5日自由团</p>
+                                    <button>申请入团</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fst-title">
+                        <p style="margin-top: 16px;"><span>NEW&nbsp;LINE</span>&nbsp;精品线路</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="content-three">
+            <div class="three-content">
+                <p class="two-title">ONLY TRAVEL AROUND THE WORLD</p>
+                <div class="three-img">
+                    <ul class="list-ul">
+                        <li>
+                            <img src="../images/line_01.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../images/line_02.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../images/line_03.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                        <li style="margin-right: 0px;float: right;" >
+                            <img src="../images/line_04.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../images/line_05.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../images/line_06.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../images/line_07.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                        <li style="margin-right: 0px;float: right;">
+                            <img src="../images/line_08.jpg" alt="">
+                            <div>
+                                <p>泰国普吉岛5日自由团</p>
+                                <button>查看详情</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fst-title">
+                    <p style="margin-top: 0px;"><span>STRAGEGY</span>&nbsp;旅游攻略</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="content-four">
+            <div class="four-content">
+                <p class="two-title">ONLY TRAVEL AROUND THE WORLD</p>
+                <div class="four-img">
+                    <div class="left-img">
+                        <p>和我一起来一次说走就走的旅行</p>
+                    </div>
+                    <div class="four-ul">
+                        <ul class="gonglue">
+                            <li class="gongli">
+                                <div class="gongleft">
+                                    <p class="date">09</p>
+                                    <p class="data-l">2018/03</p>
+                                </div>
+                                <div class="gongright">
+                                    <p class="right-p">普吉岛9天8晚纯自助，含大量干货攻略，自助游普吉</p>
+                                    <p class="right-ps">必看普吉岛行前准备——大量实用干货攻略，5月份更新游记及照片。在沙滩上觅食的海鸟，沿着海岸线晨跑的金发姑娘，一切都难么美好、悠闲自在。</p>
+                                </div>
+                            </li>
+                            <li class="gongli">
+                                <div class="gongleft">
+                                    <p class="date">09</p>
+                                    <p class="data-l">2018/03</p>
+                                </div>
+                                <div class="gongright">
+                                    <p class="right-p">普吉岛9天8晚纯自助，含大量干货攻略，自助游普吉</p>
+                                    <p class="right-ps">必看普吉岛行前准备——大量实用干货攻略，5月份更新游记及照片。在沙滩上觅食的海鸟，沿着海岸线晨跑的金发姑娘，一切都难么美好、悠闲自在。</p>
+                                </div>
+                            </li>
+                            <li class="gongli">
+                                <div class="gongleft">
+                                    <p class="date">09</p>
+                                    <p class="data-l">2018/03</p>
+                                </div>
+                                <div class="gongright">
+                                    <p class="right-p">普吉岛9天8晚纯自助，含大量干货攻略，自助游普吉</p>
+                                    <p class="right-ps">必看普吉岛行前准备——大量实用干货攻略，5月份更新游记及照片。在沙滩上觅食的海鸟，沿着海岸线晨跑的金发姑娘，一切都难么美好、悠闲自在。</p>
+                                </div>
+                            </li>
+                            <li class="gongli">
+                                <div class="gongleft">
+                                    <p class="date">09</p>
+                                    <p class="data-l">2018/03</p>
+                                </div>
+                                <div class="gongright">
+                                    <p class="right-p">普吉岛9天8晚纯自助，含大量干货攻略，自助游普吉</p>
+                                    <p class="right-ps">必看普吉岛行前准备——大量实用干货攻略，5月份更新游记及照片。在沙滩上觅食的海鸟，沿着海岸线晨跑的金发姑娘，一切都难么美好、悠闲自在。</p>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vide-i">
+        <div class="video">
+            <div class="zhezhao">
+                <div class="play">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="daiyan">
+        <img src="../images//star_01.jpg" alt="">
+    </div>
+    <div class="footer-kk">
+        <div class="footer-content">
+            <p>Copyright&copy;&nbsp;&nbsp;&nbsp;&nbsp;2009-2019&nbsp;&nbsp;&nbsp;&nbsp;且行且珍惜&nbsp;&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;苏ICP备&nbsp;xxxxx&nbsp;号</p>
+        </div>
+    </div>
+</body>
+<script>
+    var index = 1
+
+    function add() {
+        index++
+
+        if (index > 6) {
+            index = 1
+        }
+        getImg(index)
+        change()
+    }
+
+    function getImg(index) {
+        document.getElementById('img').src = '../images/banner_0' + index + '.jpg'
+    }
+
+    function reduce() {
+        index--
+        if (index < 1) {
+            index = 6
+        }
+        getImg(index)
+        change()
+    }
+
+    function first(value) {
+        var number = value.id
+        var dian = document.getElementById('img')
+        dian.src = "../images/" + number + ".jpg"
+        index = number[8]
+        change()
+    }
+
+    function change() {
+
+        var arr1 = document.getElementsByClassName('div')
+        for (i = 0; i < 6; i++) {
+            if (i == index - 1) {
+                arr1[i].style.backgroundColor = "orange"
+            } else {
+                arr1[i].style.backgroundColor = "rgba(0,0,0,0.7)"
+            }
+
+        }
+    }
+    var timer = setInterval(function () {
+        add()
+        console.log(111)
+    }, 3000)
+
+    function qingchu() {
+        clearInterval(timer)
+    }
+
+    function start() {
+        clearInterval(timer)
+        timer = setInterval(function () {
+            add()
+        }, 3000)
+    }
+</script>
+
+</html>
